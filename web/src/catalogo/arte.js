@@ -111,6 +111,19 @@ export const ARTE = {
     </g>
   `),
 
+  // Cruz de ceniza. Marca el camino y limpia las culpas de quien llega.
+  cruz: svg(`
+    <rect x="42" y="14" width="16" height="80" rx="4" fill="#8C8C8C"/>
+    <rect x="20" y="40" width="60" height="16" rx="4" fill="#8C8C8C"/>
+    <rect x="44" y="16" width="5" height="76" fill="#B9B2A4"/>
+    <rect x="22" y="42" width="56" height="5" fill="#B9B2A4"/>
+    <g fill="${CREMA}" opacity="0.9">
+      <circle cx="50" cy="26" r="2"/><circle cx="48" cy="66" r="2"/>
+      <circle cx="52" cy="82" r="1.8"/><circle cx="34" cy="48" r="2"/>
+      <circle cx="66" cy="50" r="1.8"/><circle cx="50" cy="48" r="2"/>
+    </g>
+  `),
+
   // Foto. La cara de quien recordamos.
   foto: svg(`
     <rect x="14" y="10" width="72" height="80" rx="4" fill="${MORADO}"/>

@@ -27,6 +27,7 @@ export const TIPOS = {
   agua: { etiqueta: 'Agua', grupo: 'tradicional', nivel: 1 },
   pan: { etiqueta: 'Pan de muerto', grupo: 'tradicional', nivel: 2 },
   copal: { etiqueta: 'Copal', grupo: 'tradicional', nivel: 1 },
+  cruz: { etiqueta: 'Cruz de ceniza', grupo: 'tradicional', nivel: 1 },
 
   // Personales: estos si piden algo, y por eso abren panel.
   foto: {

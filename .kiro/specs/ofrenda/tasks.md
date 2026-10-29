@@ -27,7 +27,7 @@ en el módulo 3 y la 2 en el módulo 4.
 
 ## Tasks
 
-- [ ] 1. Escribir el backend y mover el altar a la nube (módulo 3)
+- [x] 1. Escribir el backend y mover el altar a la nube (módulo 3)
   - Escribe `infra/ofrenda-stack.ts` siguiendo **Architecture**, **Data Models** y
     **Components and Interfaces** de `design.md`: la tabla, el bucket privado, las
     tres Lambdas con permisos acotados a sus recursos y la REST API con cuatro rutas.
@@ -51,7 +51,7 @@ en el módulo 3 y la 2 en el módulo 4.
     despliegan. El asistente revisa el diff y ejecuta el deploy.
   - _Requisitos: 1, 2, 3, 4, 5_
 
-- [ ] 2. Agregar un tipo de elemento nuevo (módulo 4)
+- [x] 2. Agregar un tipo de elemento nuevo (módulo 4)
   - Agrega un valor nuevo de `tipo` en `web/src/catalogo/elementos.js` (su etiqueta, grupo,
     nivel sugerido) y su dibujo en `web/src/catalogo/arte.js`, siguiendo el estilo de los que
     ya existen.
